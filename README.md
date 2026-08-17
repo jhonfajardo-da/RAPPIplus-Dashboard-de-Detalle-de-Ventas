@@ -3,13 +3,13 @@
 Proyecto final de Análisis de Datos — TripleTen
 Estado: ✅ Proyecto aprobado por el tutor
 
-📌 Descripción
+#📌 Descripción
 
 Proyecto de desarrollo de un dashboard interactivo en Power BI para RAPPIplus, orientado al análisis detallado del desempeño de ventas.
 
 La solución permite explorar los datos desde una visión general hasta el detalle de cada producto y orden, facilitando la identificación de productos con mayor volumen, evolución mensual y resultados de rentabilidad.
 
-🎯 Objetivos
+#🎯 Objetivos
 
 Analizar unidades vendidas y desempeño comercial.
 
@@ -27,7 +27,7 @@ Filtrar por fecha, país, categoría y canal.
 
 Implementar Drill-through para profundizar en un producto.
 
-🗂️ Modelo de datos
+#🗂️ Modelo de datos
 
 orders_clean
 
@@ -61,7 +61,7 @@ Dim_Canal — canales.
 
 marketing_clean — información de marketing.
 
-🧹 Limpieza y preparación
+#🧹 Limpieza y preparación
 
 Se realizaron procesos de:
 
@@ -77,13 +77,13 @@ Preparación de tablas para el modelo.
 
 Creación y revisión de relaciones.
 
-🔎 Corrección de valor atípico
+#🔎 Corrección de valor atípico
 
 Se detectó un valor anómalo asociado a Laptop-Gaming-16GB que provocaba que el gráfico mostrara aproximadamente 1.439 millones de unidades.
 
 Después del tratamiento del registro, el producto pasó a mostrar aproximadamente 39 mil unidades, evitando que el dato distorsionara el análisis.
 
-📊 Páginas del dashboard
+#📊 Páginas del dashboard
 
 1. Overview Ejecutivo
 
@@ -145,7 +145,7 @@ Cantidad total vendida.
 
 También incorpora navegación de regreso a la página anterior.
 
-📈 Principales hallazgos
+#📈 Principales hallazgos
 
 Vacuum-Pro-Black concentra aproximadamente 60 mil unidades vendidas.
 
@@ -161,7 +161,7 @@ Enero, marzo y mayo presentan niveles superiores al promedio mostrado en el dash
 
 El formato condicional facilita la identificación de órdenes con Profit Operativo positivo y negativo.
 
-🛠️ Herramientas
+#🛠️ Herramientas
 
 Herramienta
 
@@ -187,7 +187,7 @@ GitHub
 
 Documentación y publicación
 
-🧠 Competencias desarrolladas
+#🧠 Competencias desarrolladas
 
 Limpieza y transformación de datos.
 
@@ -213,7 +213,7 @@ Drill-through.
 
 Comunicación de insights de negocio.
 
-💡 Conclusión
+#💡 Conclusión
 
 El dashboard de RAPPIplus transforma datos transaccionales en una herramienta orientada a la toma de decisiones.
 
@@ -221,17 +221,7 @@ La solución permite identificar los productos con mayor volumen, analizar la ev
 
 La implementación del Drill-through permite pasar de una visión general al detalle de un producto y sus órdenes relacionadas, demostrando cómo la limpieza, transformación, modelado y visualización pueden convertirse en una herramienta útil para el análisis comercial.
 
-📁 Estructura sugerida
-
-📦 RAPPIplus-Dashboard
- ┣ 📂 data
- ┣ 📂 dashboard
- ┣ 📂 images
- ┗ 📄 README.md
-
-Nota: No publiques datos sensibles o restringidos. Si los archivos pertenecen a una plataforma educativa, puedes incluir el .pbix cuando sea permitido y acompañarlo con capturas y documentación.
-
-🎓 Formación
+#🎓 Formación
 
 Programa de Análisis de Datos — TripleTen
 
